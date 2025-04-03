@@ -1,4 +1,4 @@
-name: Cart CI - Main Branch
+name:  CI - Main Branch
 on:
   workflow_dispatch:
   push:
