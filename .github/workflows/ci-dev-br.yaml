@@ -2,6 +2,7 @@ name: Cart CI - Dev Branch
 on:
   push:
     branches:
+      - "RB*"
       - "!main"
 jobs:
   common:
