@@ -1,7 +1,0 @@
-name: Cart CI
-on: [push, workflow_dispatch]
-jobs:
-  common:
-    uses: vsaitejasgitorg/github-actions-reusable/.github/workflows/ci.yaml@main
-    with:
-      component_name: cart

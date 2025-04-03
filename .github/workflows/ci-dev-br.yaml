@@ -1,0 +1,10 @@
+name: Cart CI - Dev Branch
+on:
+  push:
+    branches:
+      - "!main"
+jobs:
+  common:
+    uses: vsaitejasgitorg/github-actions-reusable/.github/workflows/ci-dev-br.yaml@main
+    with:
+      component_name: cart
