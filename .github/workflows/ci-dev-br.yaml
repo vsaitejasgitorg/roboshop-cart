@@ -2,7 +2,7 @@ name: Cart CI - Dev Branch
 on:
   push:
     branches:
-      - "RB*"
+      - "RB**"
 jobs:
   common:
     uses: vsaitejasgitorg/github-actions-reusable/.github/workflows/ci-dev-br.yaml@main
