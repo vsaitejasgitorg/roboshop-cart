@@ -1,8 +1,5 @@
 name: Cart CI - Pull Request
-on:
-  push:
-    paths:
-      - "*"
+on: pull_request
 jobs:
   common:
     uses: vsaitejasgitorg/github-actions-reusable/.github/workflows/ci-pr.yaml@main
